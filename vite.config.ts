@@ -4,11 +4,11 @@ import react from "@vitejs/plugin-react-swc";
 import path from "path";
 import { componentTagger } from "lovable-tagger";
 
+// Replace 'your-repo-name' with your actual GitHub repository name
+const repoName = 'your-repo-name';
+
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => {
-  // Get the repository name from package.json or environment variable
-  const repoName = process.env.REPOSITORY_NAME || '';
-  
   return {
     base: mode === 'production' ? `/${repoName}/` : '/',
     server: {
