@@ -5,6 +5,8 @@ import path from "path";
 import { componentTagger } from "lovable-tagger";
 
 // Replace 'your-repo-name' with your actual GitHub repository name
+// For example, if your repository URL is https://github.com/username/my-portfolio
+// then your repoName should be 'my-portfolio'
 const repoName = 'your-repo-name';
 
 // https://vitejs.dev/config/
