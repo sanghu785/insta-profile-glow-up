@@ -7,7 +7,7 @@ import { componentTagger } from "lovable-tagger";
 // Replace 'your-repo-name' with your actual GitHub repository name
 // For example, if your repository URL is https://github.com/username/my-portfolio
 // then your repoName should be 'my-portfolio'
-const repoName = 'your-repo-name';
+const repoName = 'insta-profile-glow-up';
 
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => {
